@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.book-card{
+  box-shadow: 1px 1px 10px rgb(163, 163, 163);
+  border-radius: 8px;
+  padding: 0px;
+  width: 170px;
+  text-align: center;
+  margin: 10px;
+}
+.book-card img{
+  width: 170px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.book-card h3, .book-card p{
+  padding: 5px;
+}
+header{
+  text-align: center;
+  padding: 10px;
+}
+.buttonBox{
+  text-align: center;
+  margin: 0px;
+}
+button{
+  padding: 7px;
+  background-color: rgb(36, 124, 201);
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.booksColumns{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px;
+  gap: 10px;
+}
